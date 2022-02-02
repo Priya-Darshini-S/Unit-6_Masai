@@ -4,7 +4,7 @@ function initialload(){
     for(let i=0; i<25; i++){
     const post = document.createElement('div');
 	post.className = 'text';
-	post.innerHTML = `<h1>Masai Student ${i+1}</h1>`;
+	post.innerHTML = `<h2>Masai Student ${i+1}</h2>`;
 	container.appendChild(post);
 }
 }initialload();
@@ -17,11 +17,11 @@ window.addEventListener('scroll',()=>{
 });
 let count = 25;
 function createPost(){
-    for(let i=0; i<10; i++){
+    for(let i=0; i<25; i++){
         count++;
 	const post = document.createElement('div');
 	post.className = 'text';
-	post.innerHTML = `<h1>Masai Student ${count}</h1>`;
+	post.innerHTML = `<h2>Masai Student ${count}</h2>`;
 	container.appendChild(post);
     }
 }

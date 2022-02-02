@@ -8,12 +8,15 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 .container{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
+    border: 5px solid black
 }
 .container > h1{
     font-family: sans-serif;
@@ -22,10 +25,10 @@ body{
     margin-top: 50px;
 }
 .text{
-    width: 500px;
-    height: 80px;
+    width: 400px;
+    height: 50px;
     background: #e1ad01;
-    padding: 20px;
+    padding: 10px;
     margin: 5px 0;
     border-radius: 10px;
 }
