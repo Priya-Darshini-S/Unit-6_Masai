@@ -8,8 +8,8 @@ function initialload(){
 	container.appendChild(post);
 }
 }initialload();
-window.addEventListener('scroll',()=>{
-	const {scrollHeight,scrollTop,clientHeight} = document.documentElement;
+container.addEventListener('scroll',()=>{
+	const {scrollHeight,scrollTop,clientHeight} =container;
 	if(scrollTop + clientHeight > scrollHeight - 5){
 		setTimeout(createPost,1000);
 
